@@ -94,11 +94,11 @@ section{
 	vertical-align: top;
 }
 .container{
-	width: 77%;
+	width: 73%;
 	float: left;
 	background-color: transparent;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-bottom: 5%;
 }
 /*Left Side*/
@@ -113,12 +113,12 @@ section{
 }
 /*Right Side*/
 .rightImg{
-	width: 50%;
+	width: 60%;
 	float: left;
-	margin-left: -15%;
+	margin-left: -20%;
 }
 p{
-	font-size: 23px;
+	font-size: 26px;
 	color: #FC7D00;
 	margin: 20%;
 
@@ -144,7 +144,7 @@ div.ftbr{
 /*Buttons*/
 .quote{
 	color: white;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: bold;
 	background-color: #FC7D00;
 	border: 2px solid #FC7D00;
@@ -152,12 +152,31 @@ div.ftbr{
 }
 .case{
 	color: white;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: bold;
 	background-color: #7ACCC8;
 	border: 2px solid #7ACCC8;
 	border-radius: 5px;
 }
 button{
-	width: 50%;
+	width: 150px;
+	display: inline;
+	height: 40px;
 }
+.hover{ 
+
+ }
+ button:hover{
+ 	cursor: pointer;
+ 	background-color: green;
+
+ }
+ .para{
+ 	width: 100%;
+ }
+ .buttons{
+ 	width: 100%;
+ 	display: inline;
+ 	position: relative;
+ 	top: -30px;
+ }
